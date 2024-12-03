@@ -5,7 +5,8 @@ import sys
 pygame.init()
 
 # Screen settings
-WIDTH, HEIGHT = 800, 700
+
+WIDTH, HEIGHT = 800, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Dimension Shift")
 
